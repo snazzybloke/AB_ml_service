@@ -37,7 +37,7 @@ class MLTests(TestCase):
         algorithm_name = "random forest"
         algorithm_status = "production"
         algorithm_version = "0.0.1"
-        algorithm_owner = "MrA"
+        algorithm_owner = "MrAnte"
         algorithm_description = "Random Forest with simple pre- and post-processing"
         algorithm_code = inspect.getsource(RandomForestClassifier)
         # add to registry

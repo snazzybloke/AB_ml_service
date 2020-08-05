@@ -31,7 +31,7 @@ try:
                             algorithm_name="random forest",
                             algorithm_status="production",
                             algorithm_version="0.0.1",
-                            owner="MrA",
+                            owner="MrAnte",
                             algorithm_description="Random Forest with simple pre/postprocessing",
                             algorithm_code=inspect.getsource(RandomForestClassifier))
 
